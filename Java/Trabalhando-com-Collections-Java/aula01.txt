@@ -1,0 +1,49 @@
+Instrutora: Camila Cavalcante
+
+Trabalhando com Collections Java
+
+Introdução do Curso
+
+Objetivo do curso
+
+Apresentação do Curso
+
+Ao final deste curso, o Dev será capaz de entender o que é o Collection Framework e a aplicabilidade de
+suas principais interfaces: List, Set e Map.
+Também aprenderá um pouco de Stream API e como ela pode nos ajudar na manipulação das collections.
+
+Visão geral: Collections Framework
+
+
+Collection
+
+Collection é um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade.
+
+Serve para armazenar e processar conjuntos de dados de forma eficiente.
+
+Antes do Java 2 (JDK 1.2), a implementação de coleções na linguagem Java incluía poucas classes e não tinha a organização de um framework.
+
+
+Composição Collections
+
+- Interfaces: É um contrato que quando assumido por uma classe deve ser implementado.
+
+- Implementações ou Classes: são as materializações, a codificação das interfaces.
+
+- Algoritmos: É uma sequência lógica, finita e definida de instruções que devem ser seguidas para resolver um problema.
+
+
+Hierarquia Collections
+
+
+Exercícios
+
+Estude mais sobre a composição das collections:
+
+Interfaces
+Implementações
+Algoritmos
+
+Analise a Hierarquia do Collections Framework.
+
+Atalhos do InteliJ: http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea
