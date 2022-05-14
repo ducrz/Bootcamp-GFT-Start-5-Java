@@ -1,0 +1,11 @@
+Linguagens de Programação
+
+Introdução à linguagens de programação
+
+Como um computador entende o programa?
+
+Características de um programa
+
+Análises de código
+
+Paradigmas de programação

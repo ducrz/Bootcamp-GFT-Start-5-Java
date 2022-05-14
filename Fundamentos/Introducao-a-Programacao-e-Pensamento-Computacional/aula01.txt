@@ -1,0 +1,25 @@
+Instrutora Juliana Mascarenhas
+
+Introdução à Programação e Pensamento Computacional
+
+Pensamento Computacional
+
+Apresentação
+
+Introdução
+
+Habilidade complementares
+
+Pilares: Decomposição
+
+Pilares: Padrões
+
+Pilares: Abstração
+
+Pilares: Algoritmos
+
+Estudo de caso conceitual: perdido
+
+Estudo de caso aplicado: Soma de um intervalo
+
+Estudo de caso aplicado: Adivinhe um número

@@ -1,0 +1,15 @@
+Fundamentos de Algoritmos
+
+Tipologia e variáveis
+
+Instruções primitivas
+
+Estruturas condicionais e operadores
+
+Estruturas de repetição
+
+Vetores e matrizes
+
+O que são funções?
+
+Instruções de entrada/saída
