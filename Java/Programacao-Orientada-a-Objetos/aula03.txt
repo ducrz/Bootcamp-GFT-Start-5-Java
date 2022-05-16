@@ -1,0 +1,29 @@
+Fundamentos
+
+Fundamentos
+
+Definição
+
+"A Orientação a Objetos é um paradigma de análise,  projeto e programação de sistemas de software 
+baseado na composição e interação entre  diversas  unidades de software chamadas de objetos."
+(https://pt.wikipedia.org/wiki/Orientação_a_objetos)
+
+
+Abstração
+
+"Processo pelo qual se isolam características de um objeto, considerando os que tenham em comum certos grupos de objetos."
+
+
+Reuso
+
+"Capacidade de criar novas unidades de código a partir de outras já existentes."
+
+Encapsulamento
+
+"Capacidade de esconder complexidades e proteger dados."
+
+
+
+Exercício
+
+Levando em consideração uma loja  on-line de livros, modele uma entidade livro.

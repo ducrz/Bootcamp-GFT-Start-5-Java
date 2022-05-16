@@ -1,0 +1,231 @@
+As Relações: Herança, Associação e Interface
+
+Herança - Conceito
+
+"É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue reaproveitar os atributos e métodos dela. Além dos que  venham a ser herdados, a subclasse pode definir seus próprios membros."
+
+Códigos
+
+Java
+
+class A extends B{
+
+}
+
+C#
+
+class A : B{
+
+}
+
+Python
+
+class A(b):
+
+
+Herança - Exercício 1
+
+Crie a classe "Veiculo","Carro", "Moto" e "Caminhao". ​
+​
+Obs: use a linguagem que gostar e siga as dicas sobre como criar classes. Faça a relação de herança que julgue adequada.
+
+Folder Aula05
+
+
+Herança - Tipos
+
+Tipos de herança:
+- Simples
+	- A classe filha tem só uma classe mãe
+- Múltipla (Python, C++)
+	- A classe filha tem uma ou mais classes mães
+		Python
+		class A(B, C):
+			pass
+
+
+
+Herança - Upcast e Downcast
+
+Upcast
+
+Java
+
+A a = new B();
+
+
+C#
+
+A a = new B();
+
+
+Downcast:
+
+Java
+
+B b = (B)new A();
+
+C#
+B b = (B)new A();
+
+
+
+
+
+Herança - Polimorfismo e Sobrescrita
+
+Polimorfismo
+
+"A mesma ação, se comportando diferente."
+
+
+Polimorfismo
+	Códigos:
+	Ver exemplo
+
+Sobreescrita
+
+"A mesma ação, podendo se comportar diferente. "
+
+Sobrescrita
+	Códigos:
+	Ver exemplo
+
+Curiosidade
+Polimorfismo x Sobrescrita
+
+
+Herança - Proposta de Exercício 2
+
+Crie as classes "Funcionario", "Gerente", "Vendedor" e "Faxineiro". Realize upcasts e downcasts.
+​
+Obs: use a linguagem que gostar e siga as dicas sobre como criar classes. Faça a relação de herança de acordo com o slide.
+
+
+
+Herança - Resolução do exercício 2 - Parte 1
+
+
+Herança - Resolução do exercício 2 - Parte 2
+
+Exercitando 3
+
+Folder exercicio3
+
+Analise do comportamento de Polimorfismo e Sobrescrita.
+
+
+Associação - Conceito
+
+"Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam. Neste tipo de relacionamento, as classes e os objetos interagem entre si para atingir seus objetivos."
+
+Associação - Tipos
+
+Tipos:
+
+Estrutural
+	- Composição
+	- Agregação
+Comportamental
+      - Dependência
+
+
+Tipos:
+	Estrutural
+		Composição: "Com Parte Todo"
+		Ex: Pessoa e Endereço
+
+
+Java
+
+class Pessoa{
+	Endereco endereco;
+}
+
+Tipos:
+	Estrutural
+		Agregação: "Sem Parte Todo"
+		Ex: Disciplina e Aluno
+		
+Java
+
+class Disciplina {
+  Aluno aluno;
+}
+
+Curiosidade
+
+Agregação x Composição
+
+Tipos:
+	Comportamental
+		Dependência: "Depende de"
+
+class Compra {
+  ...
+  finalizar(Cupom cupom, ...) {
+   ...
+  }
+}
+
+Curiosidade
+
+Herança x Associação
+
+
+Associação - Exercício
+
+Apenas para praticar, codifique os exemplos dos slides anteriores sobre as associações.
+
+Obs: use a linguagem que gostar e siga as dicas sobre como criar classes.
+
+Folder exercicio4
+
+
+Interface - Conceito
+
+"Define um contrato que deve ser seguido pela classe que a implementa. Quando uma classe implementa uma interface, ela se compromete a realizar todos os comportamentos que a interface disponibiliza."
+
+Códigos:
+
+Java
+
+interface A{
+
+
+}
+
+class B implements A{
+
+
+}
+
+
+C#
+
+interface A{
+
+}
+
+class B : A{
+
+}
+
+
+Interface - Exercício
+
+Apenas para praticar, crie uma interface chamada "OperacaoMatematica". Crie também 4 métodos das operações básicas: soma, subtração, multiplicação e divisão.
+
+Obs: use a linguagem que gostar e siga as dicas sobre como criar classes. Tente não implementar algum dos métodos  e veja o que acontece.
+
+Siga em frente...
+
+Tipos de classe: Abstrata e Concreta
+Métodos abstratos
+Caracteríscas das associações
+Palavras coringas: super, base e super()
+Relações entre classes e interface: extends e implements
+
+
+Folder exercicio5
+

@@ -1,0 +1,37 @@
+Por que usar?
+
+
+
+PE vs POO
+
+
+- Paradigma Estruturado tem uma representação mais simplista
+- Paradigma Orientado a Objeto tem uma representação mais realista
+
+
+- Paradigma Estruturado foca em operações(funções) e dados 
+- Paradigma Orientado a Objetos foca na modelagem de entidades e nas interações entre estas
+
+
+- Programação Estruturada foca mais no "como fazer"
+- Programação Orientada a Objetos foca mais no "o que fazer"
+
+Vantagens da POO
+
+Melhor coesão
+Melhor acoplamento 
+Diminuição do Gap semântico
+Coletor de lixo
+
+
+Resumo
+
+
+Programação Estruturada
+
+Funções e Procedimentos <- -> Dados
+
+
+Programação Orientada a Objetos
+
+Objeto -> Objeto -> Objeto -> Objeto

@@ -1,0 +1,358 @@
+Estrutura Básica da OO
+
+Classe - Conceitos
+
+"É uma estrutura que abstrai um conjunto de objetos com características similares. Uma classe define o comportamento de seus objetos através de métodos e os estados possíveis destes objetos através de atributos. Em outros termos, uma classe descreve os serviços providos por seus objetos e quais
+informações eles podem armazenar."
+
+(https://pt.wikipedia.org/wiki/Classe_(programação))
+
+Exemplos:
+
+Carro
+Bola
+Venda
+Comprador
+Viagem
+Computador
+
+
+Dicas:
+
+- Substantivos
+- Nome significativos
+- Contexto deve ser considerado
+
+
+Códigos:
+
+Java
+
+class Carro{
+
+}
+
+C#
+
+class Carro{
+
+}
+
+Python
+class Carro:
+pass
+
+Crie a classe "Carro".
+
+Obs: use a linguagem que gostar e siga as dicas sobre como criar classes
+
+
+Classe - Exercício
+
+Carro01.java
+
+Atributo - Conceitos
+
+Atributo
+
+"É o elemento de uma classe responsável por definir sua estrutura de dados. O conjunto destes será responsável por representar suas características e fará parte dos  objetos criados a partir da classe." 
+
+Exemplos:
+
+Carro
+-cor
+
+Bola
+- diametro
+
+Viagem
+- distancia
+
+Computador
+- memoria
+
+Comprador
+- nome
+
+
+Atributo x Variável
+
+A: O que é próprio e peculiar a alguém ou a alguma coisa.
+V: Sujeito a variações ou mudanças; que pode variar; inconstante, instável
+
+
+Dicas:
+
+- Substantivos e adjetivos
+- Nome significativos
+- Contexto deve ser considerado
+- Abstração
+- Tipos adequados
+
+
+Códigos:
+
+
+Java
+
+class Carro{
+	int portas;
+}
+
+C#
+
+class Carro{
+
+	int portas;
+}
+
+Python
+
+class Carro:
+	portas = 0
+
+
+Atributo - Exercício
+
+Evolua o exercicio 1 e defina 3 atributos para sua classe "Carro": cor, modelo e capacidade do tanque.
+
+Obs: use a linguagem que gostar e siga as dicas sobre como criar atributos
+
+
+Carro02.java
+
+Método - Conceito
+
+"É uma porção de código (sub-rotina) que é disponibilizada pela classe. Este é executado quando é feita uma requisição a ele. Um método serve para identificar quais serviços, ações,  que a classe oferece. Eles são responsáveis por definir  e realizar um determinado comportamento" 
+
+Exemplos:
+
+Carro
+- ligar
+
+Venda
+- calcular total
+
+Comprador
+- realizar troca
+
+Computador
+- desligar
+
+
+Criação
+
+Java e C#
+
+- Visibilidade
+- Retorno
+- Nome
+- Parâmetros
+
+
+Python
+
+- def
+- Nome
+- Parâmetros
+
+
+Dicas:
+
+- Verbos
+- Nome significativos
+- Contexto deve ser considerado
+
+
+Códigos:
+
+Java
+
+class Carro{
+	void frear(){
+	
+	}
+
+}
+
+C#
+
+class Carro{
+	void frear(){
+	
+	
+	}
+
+}
+
+Python
+
+class Carro:
+	def frear()
+	
+	
+Dois métodos especiais: 
+
+Construtor
+Destrutor
+
+
+Construtor:
+
+Java
+
+class Carro{
+	Carro(){
+	
+	}
+
+}
+
+C#
+
+class Carro{
+	Carro(){
+	
+	
+	}
+
+}
+
+
+Python
+
+class Carro:
+	def __init__(self):
+
+
+
+Destrutor:
+
+Java
+
+class Carro{
+	void finalize(){
+	
+	}
+}
+
+C#
+
+class Carro{
+	~Carro(){
+	
+	}
+
+}
+
+class Carro:
+	def __del__(self):
+
+
+
+- Sobrecarga
+
+- Mudar a assinatura de acordo com a necessidade
+	- Assinatura: nome + parâmetros
+
+Java
+
+m1()
+m1(int i)
+m1(float f)
+m1(String s, long l)
+m1(long l, String s)
+
+
+C#
+
+M1()
+M1(int i)
+M1(float f)
+M1(String s, long l)
+M1(long l, String s)
+
+
+Por que usar?
+
+
+Método - Exercício
+
+Evolua o conceito do exercício 2 e defina 1 método para calcular o valor total  para encher o tanque. Este deve receber como parâmetro o valor da gasolina. Faça também duas sobrecargas do construtor.
+
+Obs: use a linguagem que gostar e siga as dicas sobre como criar métodos Obs: Crie métodos específicos para fornecer e obter os valores dos atributos(set/get), caso aplicável. 
+
+Carro03.java
+
+Objeto e Mensagem - Conceito
+
+Objeto
+
+"Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos."
+
+
+Criação
+
+Java
+
+Carro carro = new Carro();
+
+C#
+
+Carro carro = new Carro();
+
+Python
+
+carro = Carro()
+
+
+Mensagem
+
+"É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático."
+
+
+Java
+
+Carro carro = new Carro();
+carro.<método>;
+
+Carro.<método>;
+
+
+C#
+
+Carro carro = new Carro();
+carro.<método>;
+
+Carro.<método>;
+
+
+Python
+
+carro = Carro()
+carro.<método>
+
+Carro.<método>
+
+
+
+Siga em Frente
+
+Instância x Estático: atributos e métodos
+Estado de um Objeto
+Identidade de um Objeto
+Representação numérica de um objeto
+Representação padrão de um objeto
+
+
+
+Objeto e Mensagem - Exercício
+
+Evolua o conceito do exercício 3 criando objetos da classe "Carro". Use os métodos set/get, quando aplicáveis, para definir os valores dos atributos e exibir estes valores "get". Passe também uma mensagem para o cálculo do total pra encher o tanque.
+
+Obs: use a linguagem que gostar e siga as dicas sobre como criar métodos, atributos, etc.
+Obs: use System.out, Console.WriteLine ou print
+
+Carro04.java
+RodarAplicacao.java
+

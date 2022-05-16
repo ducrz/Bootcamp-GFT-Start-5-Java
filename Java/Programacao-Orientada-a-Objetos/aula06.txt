@@ -1,0 +1,134 @@
+A Organização de Pacotes e Visibilidades
+
+1. Apresentar os conceitos que organização a OO:
+- Pacotes
+- Visibilidades
+
+
+Pacotes - Conceitos
+
+Pacotes
+
+"São uma organização física ou lógica criada para separar classes com responsabilidades distintas. Com isso, espera-se que a aplicação fique mais organizada e seja possível separar classes de finalidades
+e representatividades diferentes."
+
+Códigos:
+
+Java
+
+package ...;
+
+import ...;
+
+C#
+
+namespace { ... }
+
+using ...;
+
+Python
+
+__init__.py(2.x)
+
+from ...
+import ...
+
+
+Pacotes - Exercício
+
+Package aula06
+
+Exercitando
+
+Ver projeto de exemplo para entender funcionamento.
+
+Visibilidades - Conceitos
+
+Visibilidades
+
+"Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou método pode ser usado. A utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos. Algumas boas práticas e conceitos só são atingidos com o uso corretos deles."
+
+Tipos:
+	- Private
+	- Protected
+	- Public
+
+
+Tipos:
+	- Private: Só dentro da classe
+	
+Java
+
+private
+
+private int i;
+private void do();
+
+C#
+
+private
+
+private int i;
+private void Do();
+
+
+	- Protected: Dentro da classe, mesmo pacote e subclasses
+
+
+Java
+
+protected
+
+protected int i;
+protected void do();
+
+C#
+
+protected
+
+protected int i;
+
+protected void Do();
+
+	
+	- Public: Em qualquer lugar
+
+Java
+
+public
+
+public int i;
+
+public void do();
+
+C#
+
+public
+
+public int i;
+
+public void Do();
+
+Curiosidades
+
+Qual usar?
+
+Visibilidades - Exercício
+
+Exercitando
+
+Ver projeto de exemplo para entender funcionamento.
+
+
+Conclusão
+
+Próximos Passos
+
+Padrões de Projeto(Desing Patterns)
+Boa práticas: SOLID,  código, tecnicas de programação, etc.
+Refatoração
+UML
+Frameworks
+MUITA prática e estudo!
+
+
