@@ -1,0 +1,7 @@
+Protocolo de comunicação WebSocket
+
+Contextualização
+
+Como funciona o WebSocket?
+
+Como ocorre a comunicação dentro da internet?

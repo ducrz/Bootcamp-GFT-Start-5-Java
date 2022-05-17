@@ -1,0 +1,8 @@
+Protocolos de comunicação Web HTTP
+
+
+Como funciona o protocolo HTTP?
+Mensagens HTTP - Request & Response
+Para que servem os Cookies e Cache?
+HTTP 2.0 - Atualizações do protocolo
+Servidores/Sistemas de aplicação
