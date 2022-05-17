@@ -1,0 +1,85 @@
+Instrutor: Venilton FalvoJr GitHub: https://github.com/falvojr
+
+Explorando Padrões de Projetos na Prática com Java
+
+DESCRIÇÃO
+
+Agora é a sua hora de brilhar! Crie uma solução que explore o conceito de Padrões de Projeto na prática. Para isso, você pode reproduzir um dos projetos que criamos durante as aulas ou, caso se sinta preparado, desenvolver uma nova ideia do zero.
+
+
+Apresentação Inicial
+
+Padrões de Projeto
+
+São soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de software orientado a objetos.
+O livro Design Patterns: Elements of Reusable Object-Oriented Software (1995) é a principal referência sobre o tema, a qual tornou os autores Gamma, Helm, Johnson e Vlissides conhecidos como "Gang of Four" (GoF).
+
+São comumente classificados nas seguintes categorias:
+
+Padrões Criacionais: Abstract Factory, Builder, Factory Method, Prototype, Singleton.
+
+Padrões Comportamentais: Chain of Responsibility, Iterator, Observer, Strategy, Template Method.
+
+Padrões Estruturais: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+
+
+Praticando com Java Puro: Singleton
+
+Permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la.
+
+
+Praticando com Java Puro: Strategy
+
+Simplificar a variação de algoritmos para a resolução de um mesmo problema.
+
+
+Praticando com Java Puro: Facade
+
+Prover uma interface que reduza a complexidade nas integrações com subsistemas.
+
+
+Praticando com Spring: Introdução
+
+Spring Framework
+
+
+Explorando alguns padrões de projetos com Spring:
+
+- Singleton: @Bean e @Autowired;
+- Strategy: @Service e @Repository;
+- Facade: construiremos uma API REST com o mesmo objetivo desse padrão, abstrair a complexidade das seguintes integrações: Spring Data JPA¹ e ViaCEP (Feign).
+
+¹ Em memória (usando o "h2").
+
+
+
+Praticando com Spring: Conhecendo o Projeto Base
+
+https://www.jsonschema2pojo.org
+
+
+Praticando com Spring: Padrões de Projeto em uma API REST
+
+
+Desafio de Projeto
+
+
+127.0.0.1:8080/swagger-ui/index.html
+127.0.0.1:8080/clientes
+
+http://127.0.0.1:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#
+
+
+Entendendo o Desafio
+
+
+Descrição do Desafio
+
+Agora é a sua hora de brilhar! Crie uma solução que explore o conceito de Padrões de Projeto na pŕatica. Para isso, você pode reproduzir um dos projetos que criamos durante as aulas ou, caso se sinta preparado, desenvolver uma nova ideia do zero ;-)
+
+Dica: Além dos projetos/repositórios que criamos para este desafio, caso queira explorar novos padrões de projeto digite no Google: "java design patterns github" ou "java design patterns examples". Com isso, você conhecerá novos padrões e implementações de referência que podem ajudá-lo a dominar esse tema!
+
+
+
+
+
